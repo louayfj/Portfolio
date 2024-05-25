@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faraj's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+    
+    <!-- Navbar section -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <a class="navbar-brand" href="#home">&lt;Faraj/&gt;</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a class="nav-link btn btn-download text-white" href="/images/Resume-Louay-Faraj-2.pdf" download>Download CV</a>
+    </div>
+</nav>
+
+
+    <!-- Hero section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 hero-content">
+                    <h1>Hello! I'm <span class="highlight">Louay</span>,</h1>
+                    <p>A Passionate <span>Frontend Web Developer</span> with 1 year of experience creating user-friendly websites.</p>
+                    <a href="#contact" class="btn btn-success">Book a call</a>
+                </div>
+                <div class="col-md-6 hero-image-container d-flex justify-content-end">
+                    <div class="glowing-container">
+                        <img src="/images/3Dcartoonimage-ezgif.com-webp-to-png-converter-removebg-preview.png" alt="Robot" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- About Me section with waves background -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="about-img-container">
+                    <img src="/images/pic2.png" alt="Faraj" class="img-fluid rounded-circle shadow-lg">
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <h2 class="text-center text-lg-left">About Me</h2>
+                <br>
+                <p class="about-description">I'm a meticulous Data Entry Specialist with a knack for managing extensive datasets both quickly and accurately. Over the past three years, I’ve honed my ability to handle sensitive information with the highest level of confidentiality. I'm proficient in various data management tools like Microsoft Excel and specialized database applications, and I'm passionate about finding new ways to enhance efficiency and accuracy in my work. My approach is personable and collaborative—I love working with teams but am equally comfortable tackling projects on my own.</p>
+                <p class="about-description">As I pivot towards a career in web development, I bring the same passion for precision to crafting user-friendly websites. I’m currently immersing myself in front-end technologies such as HTML, CSS, JavaScript, and Python, with a keen interest in integrating my background in marketing and SEO to elevate web experiences. My skills in SQL, data analysis, and Excel continue to support my analytical approach to web development. I’m excited about this new journey, eager to tackle challenges, learn daily, and connect with others who are passionate about tech and innovation.</p>
+                <div class="social-icons text-center text-lg-left">
+                    <a href="https://medium.com/@louayaraj" class="social-icon"><img src="/images/icons8-medium-50(1).png" alt="Medium" width="30" height="30"></a>
+                    <a href="https://github.com/louayfj" class="social-icon"><img src="/images/icons8-github-50.png" alt="GitHub" width="30" height="30"></a>
+                    <a href="https://www.linkedin.com/in/louayfaraj/" class="social-icon"><img src="/images/linkedinicon.png" alt="LinkedIn" width="30" height="30"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</section>
+
+
+<!-- Skills section with waves background -->
+<section id="skills" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/htmlicon.png" alt="HTML" class="img-fluid">
+                    <h4>HTML</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/cssicon.png" alt="CSS" class="img-fluid">
+                    <h4>CSS</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/javascripticon.png" alt="JavaScript" class="img-fluid">
+                    <h4>JavaScript</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/reacticon.png" alt="React" class="img-fluid">
+                    <h4>React</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/bootstrapicon.png" alt="Bootstrap" class="img-fluid">
+                    <h4>Bootstrap</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/sqliteicon.png" alt="SQLite" class="img-fluid">
+                    <h4>SQLite</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/pythonicon.png" alt="Python" class="img-fluid">
+                    <h4>Python</h4>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="skill-item text-center">
+                    <img src="/images/figmaicon.png" alt="Figma" class="img-fluid">
+                    <h4>Figma</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</section>
+
+
+   <!-- Projects section -->
+<!-- Projects section with waves background -->
+<section id="projects" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Projects</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="/images/Arcomsafetylogisticsproject.png" alt="Arcom Safety logistics project" class="img-fluid">
+                        <div class="project-overlay">
+                            <h3>Arcom Safety logistics</h3>
+                            <p>This is a comprehensive web application designed to streamline logistics and shipping operations for a global shipping company...</p>
+                            <a href="https://arcomsafetylogistics.com/" class="btn btn-success">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="/images/Survey form project.png" alt="Survey form project" class="img-fluid">
+                        <div class="project-overlay">
+                            <h3>Survey Form</h3>
+                            <p>A user-friendly survey form application designed to collect user information and feedback efficiently...</p>
+                            <a href="https://codepen.io/Louay-Faraj/pen/jOoragN" class="btn btn-success">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="/images/myfirstportfolio.png" alt="portfolio project" class="img-fluid">
+                        <div class="project-overlay">
+                            <h3>My first Portfolio</h3>
+                            <p>My First Portfolio is a personal web-based portfolio showcasing my skills, projects, and experiences as a budding web developer...</p>
+                            <a href="https://main--louayfaraj.netlify.app/" class="btn btn-success">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</section>
+
+
+
+<!-- Contact Me section with waves background -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Me</h2>
+        <p class="text-center">If you have any questions or just want to get in touch, feel free to send me a message.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="contact-form" action="https://formspree.io/f/xeqywkvy" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</section>
+
+
+
+ <!-- Footer section with waves background -->
+<footer class="py-4">
+    <div class="container text-center">
+        <div class="social-media mb-3">
+            <a href="https://github.com/louayfj" target="_blank" class="text-white mx-2"><img src="/images/icons8-github-50.png" alt="GitHub" width="30" height="30"></a>
+            <a href="https://www.linkedin.com/in/louayfaraj/" target="_blank" class="text-white mx-2"><img src="/images/linkedinicon.png" alt="LinkedIn" width="30" height="30"></a>
+            <a href="https://medium.com/@louayaraj" target="_blank" class="text-white mx-2"><img src="/images/icons8-medium-50(1).png" alt="Medium" width="30" height="30"></a>
+        </div>
+        <p>&copy; 2024 Louay Faraj. All rights reserved.</p>
+    </div>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <script src="https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
